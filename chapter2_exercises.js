@@ -42,3 +42,23 @@ function Chessboard(boardSize){
     }
     console.log(character);
 }
+
+// Other way to do functions
+// const FizzBuzz = () => {
+//    for (var i = 0; i <= 100; i++) {
+//        switch (true) {
+//            case (i % 5 === 0 && i % 3 === 0):
+//                console.log("FizzBuzz");
+//                break;
+//            case i % 5 === 0:
+//                console.log("Buzz");
+//                break;
+//            case i % 3 === 0:
+//                console.log("Fizz");
+//                break;
+//            default:
+//                console.log(i);
+//                break;
+//        }
+//    }
+//}
